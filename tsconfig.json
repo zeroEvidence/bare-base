@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "target": "es2016",
+    "noImplicitAny": true,
+    "outDir": "./lib",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "typeRoots": ["./node_modules/@types", "./typings"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "typings",
+    "**/*.spec.ts",
+    "**/*.data.ts"]
+}
