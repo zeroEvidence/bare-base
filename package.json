@@ -2,7 +2,8 @@
   "name": "@goldberg/nodejs.ts.lib.bare-base",
   "version": "1.0.0",
   "description": "@goldberg/nodejs.ts.lib.bare-base",
-  "license": "Copyright (c) Dale Moore Digital 2017",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
   "repository": "http://gitlab.dmdigital.net.au/Goldberg/@goldberg/nodejs.ts.lib.bare-base",
   "author": {
     "name": "Dale Moore Digital",
@@ -19,20 +20,23 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "clean": "rimraf lib && rimraf coverage",
-    "format": "prettier --write \"src/**/*.ts\" --single-quote --trailing-comma all",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint --force --format stylish \"src/**/*.ts\"",
     "prepublish": "npm run build",
     "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",
-    "debug:build": "npm run prebuild && tsc --pretty --target es2015 --lib DOM,ES2015,DOM.Iterable,ScriptHost",
-    "test": "jest",
+    "debug:build":
+      "npm run prebuild && tsc --pretty --target es2015 --lib DOM,ES2015,DOM.Iterable,ScriptHost",
+    "test": "jest --verbose",
     "coverage": "jest --coverage",
     "watch": "npm run build -- --watch",
     "watch:test": "jest --watch"
   },
   "dependencies": {
+    "bluebird": "^3.5.1"
   },
   "devDependencies": {
+    "@types/bluebird": "^3.5.20",
     "@types/jest": "^20.0.5",
     "@types/node": "^8.0.0",
     "coveralls": "^3.0.0",
@@ -56,16 +60,8 @@
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "testPathIgnorePatterns": [
-      "/node_modules/"
-    ],
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json"
-    ],
+    "testPathIgnorePatterns": ["/node_modules/"],
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json"],
     "testEnvironment": "node"
   }
 }
