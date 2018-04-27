@@ -4,7 +4,12 @@
 /dist
 /tmp
 /out-tsc
+
+# Development
 /lib
+/output
+/report
+
 
 # dependencies
 /node_modules
@@ -42,6 +47,8 @@ testem.log
 # e2e
 /e2e/*.js
 /e2e/*.map
+/e2e/data/actual
+/e2e/data/actual/*
 
 # System Files
 .DS_Store
@@ -50,3 +57,6 @@ Thumbs.db
 # Logs
 /logs
 *.log
+
+# Test results
+*.new.json

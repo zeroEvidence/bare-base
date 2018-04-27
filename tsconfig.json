@@ -3,21 +3,15 @@
     "declaration": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
-    "target": "es2016",
+    "lib": ["esnext"],
+    "target": "es2017",
     "noImplicitAny": true,
     "outDir": "./lib",
     "preserveConstEnums": true,
     "removeComments": true,
     "inlineSourceMap": true,
-    "typeRoots": ["./node_modules/@types", "./typings"]
+    "typeRoots": ["./node_modules/@types"]
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "typings",
-    "**/*.spec.ts"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "e2e/**/*.ts"]
 }

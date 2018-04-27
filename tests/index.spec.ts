@@ -12,7 +12,6 @@ afterAll(() => {
 });
 
 describe("Lib", () => {
-  let lib: ILib;
 
   beforeAll(done => {
     done();
@@ -23,8 +22,6 @@ describe("Lib", () => {
   });
 
   beforeEach(() => {
-    lib = new Lib();
-
     return;
   });
 
@@ -32,11 +29,8 @@ describe("Lib", () => {
     done();
   });
 
-  test(
-    'should return "abc123"',
-    () => {
-      expect(lib.message).toEqual(ResultData);
-    },
-    testTimeout
-  );
+  it("should be instantiable", () => {
+    const lib = Lib;
+    return expect(new lib()).toBeInstanceOf(Lib);
+  });
 });
