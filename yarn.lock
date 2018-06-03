@@ -41,8 +41,8 @@
   resolved "http://localhost:4873/@types%2fjest/-/jest-22.2.3.tgz#0157c0316dc3722c43a7b71de3fdf3acbccef10d"
 
 "@types/node@^8.0.24":
-  version "8.10.10"
-  resolved "http://localhost:4873/@types%2fnode/-/node-8.10.10.tgz#fec07bc2ad549d9e6d2f7aa0fb0be3491b83163a"
+  version "8.10.11"
+  resolved "http://localhost:4873/@types%2fnode/-/node-8.10.11.tgz#971ea8cb91adbe0b74e3fbd867dec192d5893a5f"
 
 abab@^1.0.4:
   version "1.0.4"
@@ -290,12 +290,12 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/babel-jest/-/babel-jest-23.0.0-beta.2.tgz#28cf51795170bd8022b3d8e2819774a20ad6e3ac"
+babel-jest@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/babel-jest/-/babel-jest-22.4.3.tgz#4b7a0b6041691bbd422ab49b3b73654a49a6627a"
   dependencies:
-    babel-plugin-istanbul "^4.1.6"
-    babel-preset-jest "^23.0.0-beta.2"
+    babel-plugin-istanbul "^4.1.5"
+    babel-preset-jest "^22.4.3"
 
 babel-messages@^6.23.0:
   version "6.23.0"
@@ -303,7 +303,7 @@ babel-messages@^6.23.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-istanbul@^4.1.4, babel-plugin-istanbul@^4.1.6:
+babel-plugin-istanbul@^4.1.4, babel-plugin-istanbul@^4.1.5:
   version "4.1.6"
   resolved "http://localhost:4873/babel-plugin-istanbul/-/babel-plugin-istanbul-4.1.6.tgz#36c59b2192efce81c5b378321b74175add1c9a45"
   dependencies:
@@ -315,10 +315,6 @@ babel-plugin-istanbul@^4.1.4, babel-plugin-istanbul@^4.1.6:
 babel-plugin-jest-hoist@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.4.3.tgz#7d8bcccadc2667f96a0dcc6afe1891875ee6c14a"
-
-babel-plugin-jest-hoist@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-23.0.0-beta.2.tgz#4a9373dab43d53de42c5da0b1aff95cf24a71b93"
 
 babel-plugin-syntax-object-rest-spread@^6.13.0:
   version "6.13.0"
@@ -340,18 +336,11 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-preset-jest@^22.4.0:
+babel-preset-jest@^22.4.0, babel-preset-jest@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/babel-preset-jest/-/babel-preset-jest-22.4.3.tgz#e92eef9813b7026ab4ca675799f37419b5a44156"
   dependencies:
     babel-plugin-jest-hoist "^22.4.3"
-    babel-plugin-syntax-object-rest-spread "^6.13.0"
-
-babel-preset-jest@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/babel-preset-jest/-/babel-preset-jest-23.0.0-beta.2.tgz#d76091615e21ecb733b6400cb63c71cd12ed47ac"
-  dependencies:
-    babel-plugin-jest-hoist "^23.0.0-beta.2"
     babel-plugin-syntax-object-rest-spread "^6.13.0"
 
 babel-register@^6.26.0:
@@ -677,8 +666,8 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "http://localhost:4873/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
 coveralls@^3.0.0:
-  version "3.0.0"
-  resolved "http://localhost:4873/coveralls/-/coveralls-3.0.0.tgz#22ef730330538080d29b8c151dc9146afde88a99"
+  version "3.0.1"
+  resolved "http://localhost:4873/coveralls/-/coveralls-3.0.1.tgz#12e15914eaa29204e56869a5ece7b9e1492d2ae2"
   dependencies:
     js-yaml "^3.6.1"
     lcov-parse "^0.0.10"
@@ -760,9 +749,9 @@ decode-uri-component@^0.2.0:
   version "0.2.0"
   resolved "http://localhost:4873/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
 
-deep-extend@~0.4.0:
-  version "0.4.2"
-  resolved "http://localhost:4873/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
+deep-extend@^0.5.1:
+  version "0.5.1"
+  resolved "http://localhost:4873/deep-extend/-/deep-extend-0.5.1.tgz#b894a9dd90d3023fbf1c55a394fb858eb2066f1f"
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -953,17 +942,6 @@ expect@^22.4.3:
     jest-matcher-utils "^22.4.3"
     jest-message-util "^22.4.3"
     jest-regex-util "^22.4.3"
-
-expect@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/expect/-/expect-23.0.0-beta.2.tgz#a5587229c875055e14cf610f5464d1fb7083dd09"
-  dependencies:
-    ansi-styles "^3.2.0"
-    jest-diff "^23.0.0-beta.2"
-    jest-get-type "^22.1.0"
-    jest-matcher-utils "^23.0.0-beta.2"
-    jest-message-util "^23.0.0-beta.2"
-    jest-regex-util "^23.0.0-beta.2"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -1582,7 +1560,7 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "http://localhost:4873/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-istanbul-api@^1.3.1:
+istanbul-api@^1.1.14:
   version "1.3.1"
   resolved "http://localhost:4873/istanbul-api/-/istanbul-api-1.3.1.tgz#4c3b05d18c0016d1022e079b98dc82c40f488954"
   dependencies:
@@ -1599,7 +1577,7 @@ istanbul-api@^1.3.1:
     mkdirp "^0.5.1"
     once "^1.4.0"
 
-istanbul-lib-coverage@^1.2.0:
+istanbul-lib-coverage@^1.1.1, istanbul-lib-coverage@^1.1.2, istanbul-lib-coverage@^1.2.0:
   version "1.2.0"
   resolved "http://localhost:4873/istanbul-lib-coverage/-/istanbul-lib-coverage-1.2.0.tgz#f7d8f2e42b97e37fe796114cb0f9d68b5e3a4341"
 
@@ -1609,7 +1587,7 @@ istanbul-lib-hook@^1.2.0:
   dependencies:
     append-transform "^0.4.0"
 
-istanbul-lib-instrument@^1.10.1:
+istanbul-lib-instrument@^1.10.1, istanbul-lib-instrument@^1.8.0:
   version "1.10.1"
   resolved "http://localhost:4873/istanbul-lib-instrument/-/istanbul-lib-instrument-1.10.1.tgz#724b4b6caceba8692d3f1f9d0727e279c401af7b"
   dependencies:
@@ -1630,6 +1608,16 @@ istanbul-lib-report@^1.1.4:
     path-parse "^1.0.5"
     supports-color "^3.1.2"
 
+istanbul-lib-source-maps@^1.2.1:
+  version "1.2.3"
+  resolved "http://localhost:4873/istanbul-lib-source-maps/-/istanbul-lib-source-maps-1.2.3.tgz#20fb54b14e14b3fb6edb6aca3571fd2143db44e6"
+  dependencies:
+    debug "^3.1.0"
+    istanbul-lib-coverage "^1.1.2"
+    mkdirp "^0.5.1"
+    rimraf "^2.6.1"
+    source-map "^0.5.3"
+
 istanbul-lib-source-maps@^1.2.4:
   version "1.2.4"
   resolved "http://localhost:4873/istanbul-lib-source-maps/-/istanbul-lib-source-maps-1.2.4.tgz#cc7ccad61629f4efff8e2f78adb8c522c9976ec7"
@@ -1646,15 +1634,15 @@ istanbul-reports@^1.3.0:
   dependencies:
     handlebars "^4.0.3"
 
-jest-changed-files@^22.2.0:
+jest-changed-files@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/jest-changed-files/-/jest-changed-files-22.4.3.tgz#8882181e022c38bd46a2e4d18d44d19d90a90fb2"
   dependencies:
     throat "^4.0.0"
 
-jest-cli@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-cli/-/jest-cli-23.0.0-beta.2.tgz#3966259f8566fbec7ac4f56681ad633a1765bbea"
+jest-cli@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-cli/-/jest-cli-22.4.3.tgz#bf16c4a5fb7edc3fa5b9bb7819e34139e88a72c7"
   dependencies:
     ansi-escapes "^3.0.0"
     chalk "^2.0.1"
@@ -1663,24 +1651,24 @@ jest-cli@^23.0.0-beta.2:
     graceful-fs "^4.1.11"
     import-local "^1.0.0"
     is-ci "^1.0.10"
-    istanbul-api "^1.3.1"
-    istanbul-lib-coverage "^1.2.0"
-    istanbul-lib-instrument "^1.10.1"
-    istanbul-lib-source-maps "^1.2.4"
-    jest-changed-files "^22.2.0"
-    jest-config "^23.0.0-beta.2"
-    jest-environment-jsdom "^23.0.0-beta.2"
-    jest-get-type "^22.1.0"
-    jest-haste-map "^23.0.0-beta.2"
-    jest-message-util "^23.0.0-beta.2"
-    jest-regex-util "^23.0.0-beta.2"
-    jest-resolve-dependencies "^23.0.0-beta.2"
-    jest-runner "^23.0.0-beta.2"
-    jest-runtime "^23.0.0-beta.2"
-    jest-snapshot "^23.0.0-beta.2"
-    jest-util "^23.0.0-beta.2"
-    jest-validate "^23.0.0-beta.2"
-    jest-worker "^23.0.0-beta.2"
+    istanbul-api "^1.1.14"
+    istanbul-lib-coverage "^1.1.1"
+    istanbul-lib-instrument "^1.8.0"
+    istanbul-lib-source-maps "^1.2.1"
+    jest-changed-files "^22.4.3"
+    jest-config "^22.4.3"
+    jest-environment-jsdom "^22.4.3"
+    jest-get-type "^22.4.3"
+    jest-haste-map "^22.4.3"
+    jest-message-util "^22.4.3"
+    jest-regex-util "^22.4.3"
+    jest-resolve-dependencies "^22.4.3"
+    jest-runner "^22.4.3"
+    jest-runtime "^22.4.3"
+    jest-snapshot "^22.4.3"
+    jest-util "^22.4.3"
+    jest-validate "^22.4.3"
+    jest-worker "^22.4.3"
     micromatch "^2.3.11"
     node-notifier "^5.2.1"
     realpath-native "^1.0.0"
@@ -1689,7 +1677,7 @@ jest-cli@^23.0.0-beta.2:
     string-length "^2.0.0"
     strip-ansi "^4.0.0"
     which "^1.2.12"
-    yargs "^11.0.0"
+    yargs "^10.0.3"
 
 jest-config@^22.4.2, jest-config@^22.4.3:
   version "22.4.3"
@@ -1707,24 +1695,6 @@ jest-config@^22.4.2, jest-config@^22.4.3:
     jest-validate "^22.4.3"
     pretty-format "^22.4.3"
 
-jest-config@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-config/-/jest-config-23.0.0-beta.2.tgz#836fb945edb24ee68a18cc5c434e330e170264bd"
-  dependencies:
-    babel-core "^6.0.0"
-    babel-jest "^23.0.0-beta.2"
-    chalk "^2.0.1"
-    glob "^7.1.1"
-    jest-environment-jsdom "^23.0.0-beta.2"
-    jest-environment-node "^23.0.0-beta.2"
-    jest-get-type "^22.1.0"
-    jest-jasmine2 "^23.0.0-beta.2"
-    jest-regex-util "^23.0.0-beta.2"
-    jest-resolve "^23.0.0-beta.2"
-    jest-util "^23.0.0-beta.2"
-    jest-validate "^23.0.0-beta.2"
-    pretty-format "^23.0.0-beta.2"
-
 jest-diff@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/jest-diff/-/jest-diff-22.4.3.tgz#e18cc3feff0aeef159d02310f2686d4065378030"
@@ -1734,16 +1704,7 @@ jest-diff@^22.4.3:
     jest-get-type "^22.4.3"
     pretty-format "^22.4.3"
 
-jest-diff@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-diff/-/jest-diff-23.0.0-beta.2.tgz#2ec4e43bebfe2c34b31d69edb48a07b9423f57ef"
-  dependencies:
-    chalk "^2.0.1"
-    diff "^3.2.0"
-    jest-get-type "^22.1.0"
-    pretty-format "^23.0.0-beta.2"
-
-jest-docblock@^22.4.0:
+jest-docblock@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/jest-docblock/-/jest-docblock-22.4.3.tgz#50886f132b42b280c903c592373bb6e93bb68b19"
   dependencies:
@@ -1757,14 +1718,6 @@ jest-environment-jsdom@^22.4.3:
     jest-util "^22.4.3"
     jsdom "^11.5.1"
 
-jest-environment-jsdom@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-environment-jsdom/-/jest-environment-jsdom-23.0.0-beta.2.tgz#dfeee37213a4e415ded7bf6fd44dfe18425a2c63"
-  dependencies:
-    jest-mock "^23.0.0-beta.2"
-    jest-util "^23.0.0-beta.2"
-    jsdom "^11.5.1"
-
 jest-environment-node-debug@^2.0.0:
   version "2.0.0"
   resolved "http://localhost:4873/jest-environment-node-debug/-/jest-environment-node-debug-2.0.0.tgz#5ef098942fec1b6af5ee4841f4f8a2ff419562f9"
@@ -1776,26 +1729,19 @@ jest-environment-node@^22.4.3:
     jest-mock "^22.4.3"
     jest-util "^22.4.3"
 
-jest-environment-node@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-environment-node/-/jest-environment-node-23.0.0-beta.2.tgz#52e3c579f2032f15e7a0758bd8162cc75ecde1d8"
-  dependencies:
-    jest-mock "^23.0.0-beta.2"
-    jest-util "^23.0.0-beta.2"
-
-jest-get-type@^22.1.0, jest-get-type@^22.4.3:
+jest-get-type@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/jest-get-type/-/jest-get-type-22.4.3.tgz#e3a8504d8479342dd4420236b322869f18900ce4"
 
-jest-haste-map@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-haste-map/-/jest-haste-map-23.0.0-beta.2.tgz#88cba71f53d5366d5901a7d40ce0330863b94963"
+jest-haste-map@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-haste-map/-/jest-haste-map-22.4.3.tgz#25842fa2ba350200767ac27f658d58b9d5c2e20b"
   dependencies:
     fb-watchman "^2.0.0"
     graceful-fs "^4.1.11"
-    jest-docblock "^22.4.0"
-    jest-serializer "^23.0.0-beta.2"
-    jest-worker "^23.0.0-beta.2"
+    jest-docblock "^22.4.3"
+    jest-serializer "^22.4.3"
+    jest-worker "^22.4.3"
     micromatch "^2.3.11"
     sane "^2.0.0"
 
@@ -1815,28 +1761,11 @@ jest-jasmine2@^22.4.3:
     jest-util "^22.4.3"
     source-map-support "^0.5.0"
 
-jest-jasmine2@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-jasmine2/-/jest-jasmine2-23.0.0-beta.2.tgz#6f4c7324cdb5d27d258265694caa24070921564d"
+jest-leak-detector@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-leak-detector/-/jest-leak-detector-22.4.3.tgz#2b7b263103afae8c52b6b91241a2de40117e5b35"
   dependencies:
-    chalk "^2.0.1"
-    co "^4.6.0"
-    expect "^23.0.0-beta.2"
-    graceful-fs "^4.1.11"
-    is-generator-fn "^1.0.0"
-    jest-diff "^23.0.0-beta.2"
-    jest-matcher-utils "^23.0.0-beta.2"
-    jest-message-util "^23.0.0-beta.2"
-    jest-snapshot "^23.0.0-beta.2"
-    jest-util "^23.0.0-beta.2"
-    pretty-format "^23.0.0-beta.2"
-    source-map-support "^0.5.0"
-
-jest-leak-detector@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-leak-detector/-/jest-leak-detector-23.0.0-beta.2.tgz#70829447af8d008cc7dd2f79dd03da16264a62d5"
-  dependencies:
-    pretty-format "^23.0.0-beta.2"
+    pretty-format "^22.4.3"
 
 jest-matcher-utils@^22.4.3:
   version "22.4.3"
@@ -1845,14 +1774,6 @@ jest-matcher-utils@^22.4.3:
     chalk "^2.0.1"
     jest-get-type "^22.4.3"
     pretty-format "^22.4.3"
-
-jest-matcher-utils@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-matcher-utils/-/jest-matcher-utils-23.0.0-beta.2.tgz#3196deab0798c359b18be64f3fdfbb6ace39c983"
-  dependencies:
-    chalk "^2.0.1"
-    jest-get-type "^22.1.0"
-    pretty-format "^23.0.0-beta.2"
 
 jest-message-util@^22.4.3:
   version "22.4.3"
@@ -1864,38 +1785,19 @@ jest-message-util@^22.4.3:
     slash "^1.0.0"
     stack-utils "^1.0.1"
 
-jest-message-util@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-message-util/-/jest-message-util-23.0.0-beta.2.tgz#178f0e039f6b6cc563e8b291d79614dec3ff35dd"
-  dependencies:
-    "@babel/code-frame" "^7.0.0-beta.35"
-    chalk "^2.0.1"
-    micromatch "^2.3.11"
-    slash "^1.0.0"
-    stack-utils "^1.0.1"
-
 jest-mock@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/jest-mock/-/jest-mock-22.4.3.tgz#f63ba2f07a1511772cdc7979733397df770aabc7"
-
-jest-mock@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-mock/-/jest-mock-23.0.0-beta.2.tgz#5e0c7e93dc986375876c41a78626b818480531b7"
 
 jest-regex-util@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/jest-regex-util/-/jest-regex-util-22.4.3.tgz#a826eb191cdf22502198c5401a1fc04de9cef5af"
 
-jest-regex-util@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-regex-util/-/jest-regex-util-23.0.0-beta.2.tgz#e210117ec92abfac532f9ff120302d9665324f6e"
-
-jest-resolve-dependencies@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-resolve-dependencies/-/jest-resolve-dependencies-23.0.0-beta.2.tgz#7b9b6e7a0f8c71ea1f89cf9011f36a14cf771534"
+jest-resolve-dependencies@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-resolve-dependencies/-/jest-resolve-dependencies-22.4.3.tgz#e2256a5a846732dc3969cb72f3c9ad7725a8195e"
   dependencies:
-    jest-regex-util "^23.0.0-beta.2"
-    jest-snapshot "^23.0.0-beta.2"
+    jest-regex-util "^22.4.3"
 
 jest-resolve@^22.4.3:
   version "22.4.3"
@@ -1904,59 +1806,50 @@ jest-resolve@^22.4.3:
     browser-resolve "^1.11.2"
     chalk "^2.0.1"
 
-jest-resolve@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-resolve/-/jest-resolve-23.0.0-beta.2.tgz#f3431639281ad094fe3de8f4b0ce98324bcee9d7"
-  dependencies:
-    browser-resolve "^1.11.2"
-    chalk "^2.0.1"
-    realpath-native "^1.0.0"
-
-jest-runner@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-runner/-/jest-runner-23.0.0-beta.2.tgz#ad9822887a97ccca5f837f55c115b510cd34773b"
+jest-runner@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-runner/-/jest-runner-22.4.3.tgz#298ddd6a22b992c64401b4667702b325e50610c3"
   dependencies:
     exit "^0.1.2"
-    jest-config "^23.0.0-beta.2"
-    jest-docblock "^22.4.0"
-    jest-haste-map "^23.0.0-beta.2"
-    jest-jasmine2 "^23.0.0-beta.2"
-    jest-leak-detector "^23.0.0-beta.2"
-    jest-message-util "^23.0.0-beta.2"
-    jest-runtime "^23.0.0-beta.2"
-    jest-util "^23.0.0-beta.2"
-    jest-worker "^23.0.0-beta.2"
+    jest-config "^22.4.3"
+    jest-docblock "^22.4.3"
+    jest-haste-map "^22.4.3"
+    jest-jasmine2 "^22.4.3"
+    jest-leak-detector "^22.4.3"
+    jest-message-util "^22.4.3"
+    jest-runtime "^22.4.3"
+    jest-util "^22.4.3"
+    jest-worker "^22.4.3"
     throat "^4.0.0"
 
-jest-runtime@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-runtime/-/jest-runtime-23.0.0-beta.2.tgz#e87ae542dbba8a454f3da369359f480a3d215007"
+jest-runtime@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-runtime/-/jest-runtime-22.4.3.tgz#b69926c34b851b920f666c93e86ba2912087e3d0"
   dependencies:
     babel-core "^6.0.0"
-    babel-plugin-istanbul "^4.1.6"
+    babel-jest "^22.4.3"
+    babel-plugin-istanbul "^4.1.5"
     chalk "^2.0.1"
     convert-source-map "^1.4.0"
     exit "^0.1.2"
     graceful-fs "^4.1.11"
-    jest-config "^23.0.0-beta.2"
-    jest-haste-map "^23.0.0-beta.2"
-    jest-message-util "^23.0.0-beta.2"
-    jest-regex-util "^23.0.0-beta.2"
-    jest-resolve "^23.0.0-beta.2"
-    jest-snapshot "^23.0.0-beta.2"
-    jest-util "^23.0.0-beta.2"
-    jest-validate "^23.0.0-beta.2"
+    jest-config "^22.4.3"
+    jest-haste-map "^22.4.3"
+    jest-regex-util "^22.4.3"
+    jest-resolve "^22.4.3"
+    jest-util "^22.4.3"
+    jest-validate "^22.4.3"
     json-stable-stringify "^1.0.1"
     micromatch "^2.3.11"
     realpath-native "^1.0.0"
     slash "^1.0.0"
     strip-bom "3.0.0"
     write-file-atomic "^2.1.0"
-    yargs "^11.0.0"
+    yargs "^10.0.3"
 
-jest-serializer@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-serializer/-/jest-serializer-23.0.0-beta.2.tgz#152b40bea364bc14e936cfe9553451ef309805c0"
+jest-serializer@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-serializer/-/jest-serializer-22.4.3.tgz#a679b81a7f111e4766235f4f0c46d230ee0f7436"
 
 jest-snapshot@^22.4.3:
   version "22.4.3"
@@ -1968,17 +1861,6 @@ jest-snapshot@^22.4.3:
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
     pretty-format "^22.4.3"
-
-jest-snapshot@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-snapshot/-/jest-snapshot-23.0.0-beta.2.tgz#b23a1536bce1614491f27faa2e0a1287c737ad8a"
-  dependencies:
-    chalk "^2.0.1"
-    jest-diff "^23.0.0-beta.2"
-    jest-matcher-utils "^23.0.0-beta.2"
-    mkdirp "^0.5.1"
-    natural-compare "^1.4.0"
-    pretty-format "^23.0.0-beta.2"
 
 jest-util@^22.4.3:
   version "22.4.3"
@@ -1992,18 +1874,6 @@ jest-util@^22.4.3:
     mkdirp "^0.5.1"
     source-map "^0.6.0"
 
-jest-util@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-util/-/jest-util-23.0.0-beta.2.tgz#db7af6f06486312cf5f2977477c28f1ee0cbfbb5"
-  dependencies:
-    callsites "^2.0.0"
-    chalk "^2.0.1"
-    graceful-fs "^4.1.11"
-    is-ci "^1.0.10"
-    jest-message-util "^23.0.0-beta.2"
-    mkdirp "^0.5.1"
-    source-map "^0.6.0"
-
 jest-validate@^22.4.3:
   version "22.4.3"
   resolved "http://localhost:4873/jest-validate/-/jest-validate-22.4.3.tgz#0780954a5a7daaeec8d3c10834b9280865976b30"
@@ -2014,28 +1884,18 @@ jest-validate@^22.4.3:
     leven "^2.1.0"
     pretty-format "^22.4.3"
 
-jest-validate@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-validate/-/jest-validate-23.0.0-beta.2.tgz#30b174151a0a3dfa91beade9309e611b20a25308"
-  dependencies:
-    chalk "^2.0.1"
-    jest-config "^23.0.0-beta.2"
-    jest-get-type "^22.1.0"
-    leven "^2.1.0"
-    pretty-format "^23.0.0-beta.2"
-
-jest-worker@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest-worker/-/jest-worker-23.0.0-beta.2.tgz#40ef277824e9f1a1cac47c127a6193c0f0c4f95f"
+jest-worker@^22.4.3:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest-worker/-/jest-worker-22.4.3.tgz#5c421417cba1c0abf64bf56bd5fb7968d79dd40b"
   dependencies:
     merge-stream "^1.0.1"
 
-jest@^23.0.0-alpha.1:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/jest/-/jest-23.0.0-beta.2.tgz#bb0dc02fb507344a44e9760c6a51cd68eb5c854e"
+jest@^22:
+  version "22.4.3"
+  resolved "http://localhost:4873/jest/-/jest-22.4.3.tgz#2261f4b117dc46d9a4a1a673d2150958dee92f16"
   dependencies:
     import-local "^1.0.0"
-    jest-cli "^23.0.0-beta.2"
+    jest-cli "^22.4.3"
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -2053,8 +1913,8 @@ jsbn@~0.1.0:
   resolved "http://localhost:4873/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
 jsdom@^11.5.1:
-  version "11.9.0"
-  resolved "http://localhost:4873/jsdom/-/jsdom-11.9.0.tgz#58ac6dfd248d560d736b0202d74eedad55590cd9"
+  version "11.10.0"
+  resolved "http://localhost:4873/jsdom/-/jsdom-11.10.0.tgz#a42cd54e88895dc765f03f15b807a474962ac3b5"
   dependencies:
     abab "^1.0.4"
     acorn "^5.3.0"
@@ -2691,13 +2551,6 @@ pretty-format@^22.4.3:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
-pretty-format@^23.0.0-beta.2:
-  version "23.0.0-beta.2"
-  resolved "http://localhost:4873/pretty-format/-/pretty-format-23.0.0-beta.2.tgz#fe04b98bfb7ae8ec7a46615f36c36901b59de5a9"
-  dependencies:
-    ansi-regex "^3.0.0"
-    ansi-styles "^3.2.0"
-
 private@^0.1.8:
   version "0.1.8"
   resolved "http://localhost:4873/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -2730,10 +2583,10 @@ randomatic@^1.1.3:
     kind-of "^4.0.0"
 
 rc@^1.1.7:
-  version "1.2.6"
-  resolved "http://localhost:4873/rc/-/rc-1.2.6.tgz#eb18989c6d4f4f162c399f79ddd29f3835568092"
+  version "1.2.7"
+  resolved "http://localhost:4873/rc/-/rc-1.2.7.tgz#8a10ca30d588d00464360372b890d06dacd02297"
   dependencies:
-    deep-extend "~0.4.0"
+    deep-extend "^0.5.1"
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
@@ -2908,7 +2761,7 @@ rimraf@^2.0.0, rimraf@^2.5.4, rimraf@^2.6.1:
   dependencies:
     glob "^7.0.5"
 
-safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "http://localhost:4873/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
@@ -3225,15 +3078,15 @@ symbol-tree@^3.2.2:
   resolved "http://localhost:4873/symbol-tree/-/symbol-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
 
 tar@^4:
-  version "4.4.1"
-  resolved "http://localhost:4873/tar/-/tar-4.4.1.tgz#b25d5a8470c976fd7a9a8a350f42c59e9fa81749"
+  version "4.4.2"
+  resolved "http://localhost:4873/tar/-/tar-4.4.2.tgz#60685211ba46b38847b1ae7ee1a24d744a2cd462"
   dependencies:
     chownr "^1.0.1"
     fs-minipass "^1.2.5"
     minipass "^2.2.4"
     minizlib "^1.1.0"
     mkdirp "^0.5.0"
-    safe-buffer "^5.1.1"
+    safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
 test-exclude@^4.2.1:
@@ -3311,8 +3164,8 @@ ts-jest@^22.4.1:
     yargs "^11.0.0"
 
 ts-node@^6.0.1:
-  version "6.0.1"
-  resolved "http://localhost:4873/ts-node/-/ts-node-6.0.1.tgz#e2dd65abcadae530d2b2109cfd19202ba9f90402"
+  version "6.0.2"
+  resolved "http://localhost:4873/ts-node/-/ts-node-6.0.2.tgz#e132d530e53173bc6a8c21ea65f64d8b47bc573e"
   dependencies:
     arrify "^1.0.0"
     chalk "^2.3.0"
@@ -3570,11 +3423,34 @@ yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
   resolved "http://localhost:4873/yallist/-/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
 
+yargs-parser@^8.1.0:
+  version "8.1.0"
+  resolved "http://localhost:4873/yargs-parser/-/yargs-parser-8.1.0.tgz#f1376a33b6629a5d063782944da732631e966950"
+  dependencies:
+    camelcase "^4.1.0"
+
 yargs-parser@^9.0.2:
   version "9.0.2"
   resolved "http://localhost:4873/yargs-parser/-/yargs-parser-9.0.2.tgz#9ccf6a43460fe4ed40a9bb68f48d43b8a68cc077"
   dependencies:
     camelcase "^4.1.0"
+
+yargs@^10.0.3:
+  version "10.1.2"
+  resolved "http://localhost:4873/yargs/-/yargs-10.1.2.tgz#454d074c2b16a51a43e2fb7807e4f9de69ccb5c5"
+  dependencies:
+    cliui "^4.0.0"
+    decamelize "^1.1.1"
+    find-up "^2.1.0"
+    get-caller-file "^1.0.1"
+    os-locale "^2.0.0"
+    require-directory "^2.1.1"
+    require-main-filename "^1.0.1"
+    set-blocking "^2.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
+    y18n "^3.2.1"
+    yargs-parser "^8.1.0"
 
 yargs@^11.0.0:
   version "11.0.0"
